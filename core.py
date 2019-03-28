@@ -41,7 +41,9 @@ class company_info_spider(object):
             info = ""
             try:
                 result = selector.xpath(base.PATH[key_word])
-                if len(result) == 1:
+                if len(result) == 0:
+                    continue
+                elif len(result) == 1:
                     info = result[0].strip()
                 elif len(result) > 1:   #now only for shareholders
                     for one in result:
