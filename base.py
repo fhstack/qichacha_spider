@@ -31,8 +31,9 @@ PATH = {
 KEY_WORDS = ["name", "legal_person", "status", "credit_code", "registration_code", "employee_number", "address", "type", "term", "establishment_date", "business_scope", "official_website", "shareholders"]
 
 #mysql
+#fill yours
 db_host = "127.0.0.1"
 db_port = 3306
 db_user = "root"
-db_passwd = "liufeihao534"
+db_passwd = ""
 db_name = "company_info"
