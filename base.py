@@ -25,10 +25,10 @@ PATH = {
     "term":'//*[@id="Cominfo"]/table[2]/tr[9]/td[4]/text()',
     "establishment_date":'//*[@id="Cominfo"]/table[2]/tr[2]/td[4]/text()',
     "business_scope":'//*[@id="Cominfo"]/table[2]/tr[11]/td[2]/text()',
-    "offcial_website":'//*[@id="company-top"]/div[2]/div[2]/div[3]/div[1]/span[3]/a/text()'
+    "offcial_website":'//a[@data-original-title="进入官网"]/text()',
+    "shareholders":'//*[@class="seo font-14"]/text()'
 }
-
-KEY_WORDS = ["name", "legal_person", "status", "credit_code", "registration_code", "employee_number", "address", "type", "term", "establishment_date", "business_scope", "official_website"]
+KEY_WORDS = ["name", "legal_person", "status", "credit_code", "registration_code", "employee_number", "address", "type", "term", "establishment_date", "business_scope", "official_website", "shareholders"]
 
 #mysql
 db_host = "127.0.0.1"
